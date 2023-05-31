@@ -1,0 +1,134 @@
+.header {
+    max-width: 1480px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo {
+    width: 197px;
+}
+
+.deliver,
+.place,
+.searching,
+.login {
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 18px;
+    color: #424242;
+}
+
+.deliver,
+.searching,
+.login {
+    line-height: 18px;
+}
+
+.place {
+    line-height: 25.2px;
+}
+
+.current {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25.2px;
+    margin-right: 4px;
+    color: #424242;
+}
+
+.map {
+    margin-left: 12px;
+    margin-right: 9px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    cursor: pointer;
+}
+
+.button {
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px rgba(255, 174, 0, 0.26), 0px 20px 40px rgba(255, 174, 0, 0.29);
+    border-radius: 8px;
+    border: none;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    cursor: pointer;
+}
+
+.login {
+    background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subH {
+    display: flex;
+   justify-content: space-between;
+   margin-left: 30px;
+   margin-right: 30px;
+   padding-top: 10px;
+   padding-bottom: 20px;
+}
+
+@media (max-width: 1500px) {
+    .header {
+        max-width: 1200px;
+    }
+}
+
+
+@media (max-width: 1300px) {
+    .header {
+        max-width: 1000px;
+    }
+}
+
+@media (max-width: 1067px) {
+    .header {
+        max-width: 800px;
+    }
+}
+
+
+@media (max-width: 1038px) {
+    .deliver,
+    .place,
+    .searching,
+    .login {
+    font-size: 16px;
+    line-height: 16px;
+    }
+}
+
+@media (max-width: 838px) {
+   .header {
+    max-width: 90vw;
+   }
+   .deliver,
+    .place,
+    .searching,
+    .login {
+    font-size: 14px;
+    line-height: 14px;
+    }
+}
+
+@media (max-width: 740px) {
+
+ }

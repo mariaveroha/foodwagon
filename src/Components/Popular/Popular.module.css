@@ -1,0 +1,125 @@
+.popular {
+    height: 605px;
+}
+
+.content {
+    max-width: 1480px;
+    margin: 0 auto;
+}
+
+.title {
+    padding-top: 80px;
+    margin-bottom: 88px;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 112%;
+    text-align: center;
+    color: #212121;
+}
+
+
+
+@media(max-width: 1700px) {
+    .content {
+        max-width: 1200px;
+    }
+}
+
+
+@media(max-width: 1412px) {
+    .content {
+        max-width: 1000px;
+    }
+}
+
+@media(max-width: 1220px) {
+    .content {
+        max-width: 900px;
+    }
+}
+
+@media(max-width: 1100px) {
+    .content {
+        max-width: 800px;
+        margin-left: 130px;
+    }
+}
+
+@media(max-width: 1010px) {
+    .content {
+        max-width: 750px;
+    }
+}
+
+@media(max-width: 967px) {
+    .content {
+        max-width: 700px;
+        margin: auto;
+        padding-left: 40px;
+
+    }
+}
+
+@media(max-width: 850px) {
+    .content {
+        max-width: 650px;
+
+    }
+}
+
+@media(max-width: 830px) {
+    .content {
+        max-width: 400px;
+
+    }
+}
+
+@media(max-width: 781px) {
+    .popular {
+       margin-top: 390px;
+
+    }
+}
+
+
+
+@media(max-width: 646px) {
+    .content {
+       padding: 0;
+
+    }
+}
+
+@media(max-width: 600px) {
+    .content {
+        max-width: 300px;
+
+    }
+}
+
+@media(max-width: 500px) {
+    .content {
+        max-width: 200px;
+
+    }
+    .title {
+        margin-bottom: 20px;
+        font-size: 35px;
+    }
+}
+
+@media(max-width: 460px) {
+    .popular {
+       margin-top: 1200px;
+
+    }
+}
+
+
+@media(max-width: 388px) {
+    .popular {
+       margin-top: 1290px;
+
+    }
+}

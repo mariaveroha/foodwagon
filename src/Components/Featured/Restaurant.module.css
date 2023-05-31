@@ -1,0 +1,153 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+}
+
+.rest {
+    width: 64px;
+}
+
+.abs {
+    position: absolute;
+    display: flex;
+    top: 0;
+    margin-top: 24px;
+    margin-left: 15px;
+    column-gap: 8px;
+    align-items: center;
+}
+
+.blockSale {
+    width: 134px;
+    height: 42px;
+    background: #F17228;
+    border-radius: 8px;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    padding: 8px 16px;
+}
+
+.blockTime {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    column-gap: 10px;
+    width: 5vw;
+    height: 42px;
+    background: #FFB30E;
+    border-radius: 8px;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.f {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.name {
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    color: #424242;
+    margin: 0 0 8px 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.number {
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 120%;
+    color: #FFB30E;
+}
+
+.button {
+    padding: 8px 16px;
+    gap: 10px;
+    width: 197px;
+    height: 42px;
+    background: rgba(241, 114, 40, 0.2);
+    border-radius: 16px;
+    border: none;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    cursor: pointer;
+    color: #F17228;
+}
+
+.buttonGreen {
+    width: 133px;
+    height: 42px;
+    background: rgba(121, 185, 60, 0.2);
+    border-radius: 16px;
+    padding: 8px 16px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    color: #79B93C;
+    border: none;
+}
+
+@media (max-width: 1576px) {
+    .item {
+        width: 300px;
+    }
+}
+
+@media (max-width: 1100px) {
+   .blockSale, .blockTime {
+    font-size: 20px;
+   }
+   .blockSale {
+    padding: 8px 12px;
+   }
+   .blockTime {
+    width: 6vw;
+   }
+}
+
+@media (max-width: 830px) {
+   .blockTime {
+    width: 10vw;
+   }
+    }
+
+    @media (max-width: 500px) {
+        .blockTime {
+         width: 12vw;
+        }
+         }
+
+         @media (max-width: 450px) {
+            .blockTime {
+             width: 17vw;
+            }
+             }

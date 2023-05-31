@@ -1,0 +1,76 @@
+.order {
+    background-image: url(../../images/back.png);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    font-family: 'Source Sans Pro';
+    font-weight: 900;
+    font-size: 57px;
+    line-height: 97.5%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 91px;
+    margin: 0;
+    width: 728px;
+    padding-bottom: 62px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 25px;
+    gap: 10px;
+    width: 233px;
+    height: 60px;
+    background: linear-gradient(93.41deg, #F17228 -5.63%, #F15E28 100.8%);
+    box-shadow: 0px 5px 8px rgba(222, 151, 0, 0.24), 0px 14px 32px rgba(255, 178, 14, 0.29);
+    border-radius: 8px;
+    border: none;
+    width: 233px;
+    cursor: pointer;
+}
+
+.text,
+.arrow {
+    font-family: 'Source Sans Pro';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+@media(max-width: 760px) {
+    .title {
+        font-size: 47px;
+        width: 500px;
+    }
+}
+
+
+@media(max-width: 530px) {
+    .title {
+        font-size: 44px;
+        width: 400px;
+    }
+}
+
+@media(max-width: 395px) {
+    .title {
+        font-size: 44px;
+        width: 300px;
+    }
+}

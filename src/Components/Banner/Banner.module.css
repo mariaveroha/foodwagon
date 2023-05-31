@@ -1,0 +1,491 @@
+.banner {
+    background-color: #fc0;
+    height: 623px;
+    position: relative;
+}
+
+.content {
+    max-width: 1480px;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 88px;
+    color: #FFFFFF;
+    padding-top: 132px;
+    margin: 0;
+}
+
+.subtitle {
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 120%;
+    color: #504F4F;
+    margin: 15px 0 32px;
+}
+
+.shadow {
+    right: 218px;
+    top: 182px;
+    position: absolute;
+    width: 619px;
+    height: 619px;
+    z-index: 10;
+    background: rgba(196, 196, 196, 0.7);
+    mix-blend-mode: multiply;
+    filter: blur(40.81px);
+    border-radius: 50%;
+}
+
+.img {
+    width: 497px;
+    right: 218px;
+    top: 182px;
+    position: absolute;
+    z-index: 20;
+}
+
+.sales {
+    background-color: white;
+    position: absolute;
+    top: 623px;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    column-gap: 15.9px;
+    padding-top: 77px;
+    width: 98vw;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    width: 44vw;
+    padding: 24px 24px 29.5px 24px;
+}
+
+.buttonD {
+    background: rgba(241, 114, 40, 0.1);
+}
+
+.buttonText {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    color: #F17228;
+}
+
+.bike {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.buttonP,
+.buttonD {
+    border-radius: 8px;
+    padding: 10px 24px;
+    border: none;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    cursor: pointer;
+}
+
+.buttonP {
+    background-color: #FFFFFF;
+}
+
+.flex {
+    display: flex;
+    column-gap: 8px;
+    margin-bottom: 53px;
+}
+
+.block {
+    display: flex;
+    column-gap: 16px;
+}
+
+.input {
+    background: #F5F5F5;
+    border-radius: 8px;
+    border: none;
+    padding: 7px 0px 8px 16px;
+    height: 49px;
+    width: 30vw;
+}
+
+.input::placeholder {
+    background-image: url(../../images/mapRed.png);
+    background-repeat: no-repeat;
+    height: 34px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #9E9E9E;
+    padding-left: 36px;
+    padding-top: 5px;
+}
+
+.buttonF {
+    background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 48px;
+    gap: 10px;
+    border: none;
+    width: 199px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.find {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media (max-width: 1670px) {
+
+    .img,
+    .shadow {
+        right: 118px;
+    }
+}
+
+@media (max-width: 1550px) {}
+
+@media (max-width: 1500px) {
+    .content {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 1400px) {
+    .content {
+        max-width: 1200px;
+    }
+
+    .card {
+        width: 36vw;
+    }
+
+    .img {
+        width: 35vw;
+        top: 218px;
+    }
+
+    .shadow {
+        width: 36vw;
+        right: 238px;
+        top: 218px;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .img {
+        right: 108px;
+        width: 39vw;
+    }
+
+    .shadow {
+        right: 158px;
+    }
+
+    .title {
+        font-size: 84px;
+        line-height: 84px;
+    }
+
+    .content {
+        max-width: 100%;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .img {
+        right: 30px;
+        top: 212px;
+    }
+
+    .shadow {
+        right: 120px;
+        top: 212px;
+    }
+
+}
+
+@media (max-width: 1183px) {
+
+    .img,
+    .top {
+        top: 232px;
+    }
+}
+
+@media (max-width: 1118px) {
+
+    .img,
+    .top {
+        top: 252px;
+    }
+}
+
+@media (max-width: 1076px) {
+
+    .shadow {
+        right: 140px;
+        top: 192px;
+    }
+
+    .img {
+        width: 43vw;
+        top: 220px;
+    }
+
+    .input::placeholder {
+        font-size: 16px;
+        padding-left: 30px;
+    }
+
+    .buttonF {
+        padding: 11px 18px;
+    }
+
+    .find {
+        font-size: 16px;
+    }
+
+    .sales {
+        width: 90vw;
+        margin-left: 60px;
+    }
+
+}
+
+@media (max-width: 1050px) {
+
+    .img,
+    .shadow {
+        top: 234px;
+    }
+}
+
+
+@media (max-width: 1010px) {
+
+    .img,
+    .top {
+        top: 242px;
+    }
+
+    .sales {
+        flex-wrap: wrap;
+        row-gap: 50px;
+        margin-left: 30px;
+    }
+}
+
+
+@media (max-width: 997px) {
+
+    .img,
+    .top {
+        top: 262px;
+    }
+}
+
+
+
+@media (max-width: 951px) {
+    .img {
+        top: 272px;
+    }
+
+    .shadow {
+        top: 312px;
+        height: 344px;
+    }
+}
+
+@media (max-width: 915px) {
+    .img {
+        width: 48vw;
+        top: 272px;
+    }
+
+    .shadow {
+        top: 272px;
+        right: 170px;
+    }
+}
+
+
+@media (max-width: 806px) {
+    .title {
+        padding-top: 80px;
+    }
+
+    .img {
+        top: 299px;
+    }
+
+    .shadow {
+        top: 292px;
+        right: 150px;
+    }
+}
+
+@media (max-width: 780px) {
+    .img {
+        top: 463px;
+
+    }
+
+    .banner {
+        height: 765px;
+    }
+
+    .card {
+        width: 85vw;
+    }
+
+    .sales {
+        top: 765px;
+    }
+
+    .shadow {
+        top: 492px;
+    }
+
+    .content {
+        margin-right: 30px;
+    }
+
+    .input {
+        width: 40vw;
+    }
+}
+
+@media (max-width: 707px) {
+    .img {
+        top: 480px;
+    }
+
+    .title {
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+
+}
+
+
+@media (max-width: 676px) {
+    .shadow {
+        right: 180px;
+        top: 452px;
+    }
+
+    .img {
+        width: 54vw;
+        top: 450px;
+    }
+}
+
+
+
+@media (max-width: 657px) {
+    .card {
+        width: 75vw;
+    }
+
+    .img {
+        top: 480px;
+    }
+
+    .shadow {
+        top: 472px;
+    }
+
+    .title {
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 594px) {
+    .shadow {
+        top: 513px;
+        right: 150px;
+    }
+
+    .img {
+        top: 520px;
+    }
+}
+
+@media (max-width: 500px) {
+    .img {
+        top: 550px;
+    }
+
+    .shadow {
+        top: 550px;
+    }
+}
+
+
+@media (max-width: 443px) {
+    .title {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .img {
+        width: 70vw;
+        top: 510px;
+    }
+
+    .shadow {
+        top: 480px;
+        right: 200px;
+    }
+}
+
+
+
+@media (max-width: 410px) {
+
+    .img,
+    .shadow {
+        top: 530px;
+    }
+
+    .input::placeholder {
+        padding-left: 25px;
+    }
+
+    .input {
+        padding-right: 10px;
+    }
+}
