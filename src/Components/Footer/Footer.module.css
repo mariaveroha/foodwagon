@@ -29,9 +29,12 @@
     padding-bottom: 115px;
     border-bottom: 2px solid #424242;
 }
-.item , .icon {
+
+.item,
+.icon {
     cursor: pointer;
 }
+
 .columns {
     display: flex;
     column-gap: 116px;
@@ -255,9 +258,11 @@
         text-align: center;
     }
 
+    .content {
+        margin: auto;
+    }
+
     .cities {
-        flex-direction: column;
-        justify-content: center;
         font-size: 22px;
         align-items: center;
     }
